@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.mobile-only {
+  display: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+}
+
+
+.main-content {
+  padding-top: 65px;
+
+  @media (max-width: 768px) {
+    padding-top: 70px;
+  }
+}
